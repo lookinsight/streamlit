@@ -3,8 +3,7 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# 보험료 예측")
-st.write('1 + 1 = ', 2)
+st.write("# ◆보험료 예측◪")
 
 
 # 첫번째 행
