@@ -4,6 +4,11 @@ import numpy as np
 
 # 헤드라인
 st.write("# 보험료 예측")
+st.write(pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40],
+}))
+
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
