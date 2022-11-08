@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # streamlit
-=======
 ```
 $ pip install streamlit
 $ streamlit hello
@@ -16,4 +14,3 @@ $ streamlit run streamlit_app.py
   * pip install joblib --upgrade (mac)
   * pip install mlxtend --upgrade (linux)
   * advanced setting -> python 3.8
->>>>>>> 646eb52 (first streamlit)
