@@ -5,6 +5,12 @@ import numpy as np
 # 헤드라인
 st.write("# ◆보험료 예측◪")
 
+# 이미지 삽입
+from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
+
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
@@ -36,11 +42,7 @@ predict_button = st.button("예측")
 
 st.write("---")
 
-# 이미지 삽입
-from PIL import Image
-image = Image.open('sunrise.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
 
 # 예측 결과
 if predict_button:
