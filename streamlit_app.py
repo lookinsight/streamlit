@@ -7,6 +7,10 @@ st.title("보험료 예측")
 st.write('Hello, *World!* :sunglasses:')
 
 # 이미지 삽입
+from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
 
 
 # 첫번째 행
