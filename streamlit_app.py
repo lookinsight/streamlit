@@ -3,7 +3,8 @@ import joblib
 import numpy as np
 
 # 헤드라인
-st.write("# ◆보험료 예측◪")
+st.title("보험료 예측")
+write('Hello, *World!* :sunglasses:')
 
 # 이미지 삽입
 
