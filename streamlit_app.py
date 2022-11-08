@@ -42,6 +42,11 @@ predict_button = st.button("예측")
 
 st.write("---")
 
+# spinner
+with st.spinner('Wait for it...'):
+    time.sleep(5)
+st.success('Done!')
+
 
 
 # 예측 결과
