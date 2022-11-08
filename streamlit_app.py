@@ -7,7 +7,7 @@ st.title("보험료 예측")
 st.write('Hello, *World!* :sunglasses:')
 
 # 이미지 삽입
-st.image('earth1.jpg', caption='earth night sky')
+st.image('earth1.jpeg', caption='earth night sky')
 
 
 # 첫번째 행
