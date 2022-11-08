@@ -36,6 +36,12 @@ predict_button = st.button("예측")
 
 st.write("---")
 
+# 이미지 삽입
+from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
+
 # 예측 결과
 if predict_button:
     model = joblib.load('first_model.pkl')
