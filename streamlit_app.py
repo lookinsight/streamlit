@@ -6,6 +6,8 @@ import numpy as np
 st.title("보험료 예측")
 st.write('Streamlit, *World!* :sunglasses:')
 
+st.snow()
+
 # 이미지 삽입
 st.image('earth1.jpeg', caption='earth night sky')
 
