@@ -4,7 +4,7 @@ import numpy as np
 
 # 헤드라인
 st.title("보험료 예측")
-st.write('Hello, *World!* :sunglasses:')
+st.write('Streamlit, *World!* :sunglasses:')
 
 # 이미지 삽입
 st.image('earth1.jpeg', caption='earth night sky')
