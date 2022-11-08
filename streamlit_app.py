@@ -4,10 +4,7 @@ import numpy as np
 
 # 헤드라인
 st.write("# 보험료 예측")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40],
-}))
+st.write('1 + 1 = ', 2)
 
 
 # 첫번째 행
