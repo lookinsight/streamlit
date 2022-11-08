@@ -6,10 +6,6 @@ import numpy as np
 st.write("# ◆보험료 예측◪")
 
 # 이미지 삽입
-from PIL import Image
-image = Image.open('sunrise.jpg')
-
-st.image(image, caption='Sunrise by the mountains')
 
 
 # 첫번째 행
