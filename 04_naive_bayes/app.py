@@ -2,6 +2,7 @@ import streamlit as st
 
 from PIL import Image # 파이썬 기본라이브러리는 바로 사용 가능!
 import os
+
 def get_image(image_name):
     image_path = f"{os.path.dirname(os.path.abspath(__file__))}/{image_name}"
     image = Image.open(image_path) # 경로와 확장자 주의!
@@ -26,7 +27,7 @@ df = pd.read_csv(data_url) # URL로 CSV 불러오기
 st.write(df) # 자동으로 표 그려줌
 # st.table(df) # 이걸로 그려도 됨
 
-st.write("# 모델 통해 예측해 보기")
+st.title(st.markdown("# **모델 통해 예측**해 보기"))
 
 with st.echo(code_location="below"):
     import joblib
